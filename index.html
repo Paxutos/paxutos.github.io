@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <title>Test page</title>
+  </head>
+  <body>
+	  <h1>Bitcoin</h1>
+	  <h2>Wallets</h2>
+    <img src="images/bitcoin-wallet.jpg" alt="Wallet">
+	<p>There are several modes which wallets can operate in. They have an inverse relationship with regards to trustlessness and computational requirements</p>
+    
+	<ul> 
+	  <li>Full clients verify transactions directly by downloading a full copy of the blockchain (over 150 GB as of January 2018). They are the most secure and reliable way of using the network, as trust in external parties is not required. Full clients check the validity of mined blocks, preventing them from transacting on a chain that breaks or alters network rules. Because of its size and complexity, downloading and verifying the entire blockchain is not suitable for all computing devices</li>
+	  <li>Lightweight clients consult full clients to send and receive transactions without requiring a local copy of the entire blockchain (see simplified payment verification – SPV). This makes lightweight clients much faster to set up and allows them to be used on low-power, low-bandwidth devices such as smartphones. When using a lightweight wallet, however, the user must trust the server to a certain degree, as it can report faulty values back to the user. Lightweight clients follow the longest blockchain and do not ensure it is valid, requiring trust in miners</li>
+	</ul>
+
+	<p>Third-party internet services called online wallets offer similar functionality but may be easier to use. In this case, credentials to access funds are stored with the online wallet provider rather than on the user's hardware. 
+		As a result, the user must have complete trust in the online wallet provider. A malicious provider or a breach in server security may cause entrusted bitcoins to be stolen. An example of such a security breach occurred with Mt. Gox in 2011.
+	
+		As an example You can use <a href="https://paxful.com/support/en-us/articles/360023836613-Paxful-Mobile-Wallet">Paxful Mobile Wallet</a>
+	</p>
+	<button>Change user</button>
+	<script src="scripts/main.js"></script>
+  </body>
+</html>
